@@ -1,10 +1,13 @@
 .contact {
     margin: var(--size-8) auto;
     border-radius: 6px;
-    background-color: var(--color-grey-100);
+    /* background-color: var(--color-grey-100); */
+    background-color: #fff;
+    box-shadow: 2px 1px 9px 0px rgb(0 0 0 / 30%); 
+
     width: 90%;
     max-width: 50rem;
-    padding: var(--size-4);
+    padding: var(--size-5);
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
     font-size: var(--size-6);
   }
@@ -29,7 +32,9 @@
     border-radius: 4px;
     width: 100%;
     border: 1px solid var(--color-grey-400);
-    background-color: var(--color-grey-50);
+    /* background-color: var(--color-grey-50); */ 
+    background-color: #fff;
+    color: #000; 
     resize: none;
   }
   
@@ -53,17 +58,23 @@
   .form button {
     font: inherit;
     cursor: pointer;
-    background-color: var(--color-primary-700);
-    border: 1px solid var(--color-primary-700);
+    /* background-color: var(--color-primary-700);
+    border: 1px solid var(--color-primary-700); */
     padding: var(--size-2) var(--size-4);
     border-radius: 4px;
-    color: var(--color-primary-50);
+    /* color: var(--color-primary-50);  */ 
+    outline: none;  
+    border: 0 ; 
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    background-color: #000; 
+    color: #fff
   }
   
   .form button:hover {
-    background-color: var(--color-primary-500);
-    border-color: var(--color-primary-500);
+    /* background-color: var(--color-primary-500);
+    border-color: var(--color-primary-500); */   
+    background-color: rgba(0,0,0,.8);
+
   }
   
   @media (min-width: 768px) {

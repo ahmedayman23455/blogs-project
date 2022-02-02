@@ -4,7 +4,9 @@
     margin: var(--size-8) auto;
     font-size: var(--size-5);
     line-height: var(--size-8);
-    background-color: var(--color-grey-100);
+    /* background-color: var(--color-grey-100); */ 
+    background-color: #fff;  
+    box-shadow: 2px 1px 9px 0px rgb(0 0 0 / 30%); 
     border-radius: 6px;
     padding: var(--size-4);
   }
